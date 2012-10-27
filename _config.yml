@@ -1,2 +1,4 @@
 baseurl: /
 pygments: true
+style: /css/style.css
+
