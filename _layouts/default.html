@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 
 <html>
-	
 	<head>
-		
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		
 		<title>{{ page.title }}</title>
-
-		</head>
-
-	　　<body>
-
-		　　　　{{ content }}
-
-		</body>
-
+		<link rel="stylesheet" type="text/css" href="{{ site.style }}" />
+	</head>
+	<body>
+		<div id="container" class="container">
+			<div id="sidebar" class="sidebar">
+				{% include sidebar.html %}
+			</div>
+			<div id="content" class="content">
+	　　　　	{{ content }}
+			</div>
+		</div>
+	</body>
 </html>
