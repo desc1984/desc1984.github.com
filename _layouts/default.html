@@ -7,12 +7,22 @@
 		<link rel="stylesheet" type="text/css" href="{{ site.style }}" />
 	</head>
 	<body>
-		<div id="container" class="container">
-			<div id="sidebar" class="sidebar">
-				{% include sidebar.html %}
-			</div>
-			<div id="content" class="content">
-	　　　　	{{ content }}
+        <div id="swap">
+            <div id="content" class="cf">
+                <div id="logo">
+                    <h1><a href="http://desc1984.github.com/">{{ site.title }}</a></h1>
+                </div>
+                <ul id="nav">
+                    <li><a href="###" title="Home" class="on">Home</a></li>
+                    <li><a href="###" title="About">About</a></li>
+                    <li><a href="###" title="Contact">Contact</a></li>
+                </ul>
+                <div id="sidebar">
+                    {% include category.html %}
+                </div>
+                <div id="article">
+        　　　　	{{ content }}
+                </div>
 			</div>
 		</div>
 	</body>

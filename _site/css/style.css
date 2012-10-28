@@ -1,20 +1,52 @@
-body {text-align:center;}
+/*
+YUI 3.7.3 (build 5687)
+Copyright 2012 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
 
-.container {
-	margin-left:auto;
-	margin-right:auto;
-	width:960px;
-	text-align:left;
-	padding-top:50px;
-}
+/* For modern browsers */
+.cf:before,.cf:after {content:"";display:block;overflow:hidden;}
 
-.sidebar { 
-	float:left;
-	text-align:center;
-	padding-top:150px;
-	padding-bottom:150px;
-}
+.cf:after {clear:both;}
 
-.content { 
-	float:left;
-	padding-left:50px;}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {zoom:1;}
+
+
+/*desc1984*/
+a{color:#047878;text-deocraiton:none;}
+a:hover{color:#BFBB11;}
+a:-webkit-any-link{text-decoration:none;}
+#swap {text-align:center;padding-top:70px;font-size:13px;font-family:Tohoma,"ËÎÌו", Helvetica, Arial, sans-serif;}
+#content{position:relative;text-align:left;width:980px;margin:0px auto;}
+#logo{position:absolute;right:0px;}
+#sidebar{float:left;width:140px;padding-top:6px;margin-right:40px;text-align:right;}
+#sidebar h3{font-size:14px;padding-bottom:10px;}
+#sidebar ul li {line-height:1.8;font-size:12px;}
+#article {float:left;width:600px;}
+#article h3{font-size:14px;font-weight:bold;line-height:2;}
+.article-list {padding-bottom:10px;}
+.article-list li{padding:5px 0px;}
+.date {color:#999;padding:0px 20px 0px 0px;}
+
+#logo a {font-size:36px;font-weight:bold;color:#047878;}
+#nav {position:absolute;right:8px;top:50px;}
+#nav li a{display:inline-block;padding-left:10px;line-height:2;margin-bottom:5px;width:130px;color:#047878;border-bottom:3px solid #fff;}
+#nav li a.on{border-bottom:3px solid #BFBB11;color:#BFBB11;}
+#nav li a:hover{border-bottom:3px solid #BFBB11;color:#BFBB11;}
+
+#article-main{float:left;width:600px;}
+.post {margin-bottom:10px;padding-bottom:5px;width:100%;}
+.post p {line-height:1.8;margin-bottom:10px;}
+.post ul,.post ol {margin:10px 0 10px 20px;}
+.post img {max-width:450px;margin:5px;border:none;}
+h2.entry_title {margin-bottom:5px;font:22px "Microsoft YaHei", PMingLiu, sans-serif;font-weight:500;}
+h2.entry_title a {border:none;}
+h2.entry_title a:hover {color:#d0152d;}
+.post h3 {font-size:16px;}
+.post h4 {font-size:15px;}
+.post h5 {font-size:14px;font-weight:700;}
+.entry_data {color:#999;font-size:12px;}
+.entry_data span {margin-right:4px;padding-right:7px;}
